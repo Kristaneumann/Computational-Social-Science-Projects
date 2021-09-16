@@ -1,0 +1,13 @@
+cd Desktop/GitRepos
+git clone https://github.com/Kristaneumann/Computational-Social-Science-Projects.git
+cd "Computational Social Science Projects"
+mkdir "Project 1"
+cd "Project 1"
+vim summary_commands.txt
+ESC :wq
+git add summary_commands.txt
+git status
+git commit -m "Add summary of commands"
+git push
+git status
+git pull
